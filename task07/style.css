@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box1{
+    width: 100%;
+    height: 57px;
+    background-color:pink;
+    background-image: url(F:/勤奋蜂/level2/图片/背景.png);
+    /* background-image: url(F:/勤奋蜂/level2/图片/新世界.png); */
+}
+.box2{
+    width: 100%;
+    height: 690px;
+    background-color:yellowgreen;
+}
+.box3{
+    width: 100%;
+    height: 252px;
+    background-color:skyblue;
+}
+.box3 div{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border:1px solid grey;
+    margin-left:43px;
+    float: left;
+}
+.box4{
+    width: 100%;
+    height: 360px;
+    background-color: yellow;
+}
+.box5{
+    width: 100%;
+    height: 310px;
+    background-color:plum;
+}
+.box6{
+    width: 100%;
+    height: 604px;
+    background-color:darkgray;
+    position: relative;
+}
+/* .box6-0{
+    width: 1395px;
+    height: 490px;
+    background-color: gray;
+    position: absolute;
+    top:50px;
+    left: 12px;
+
+} */
+.box6 .box6-1{
+    width: 219px;
+    height: 338px;
+    background-color: white;
+    border:1px solid grey;
+    margin:102px 38px 115px 148px;
+    float: left;
+
+}
+.box6 .box6-2{
+    width: 219px;
+    height: 338px;
+    background-color: white;
+    border:1px solid grey;
+    margin-top: 155px;
+    margin-bottom: 109px;
+    margin-right: 38px;
+    float: left;
+}
+.box6 .box6-3{
+    width: 219px;
+    height: 338px;
+    background-color: white;
+    border:1px solid grey;
+    margin:102px 38px 115px 0px;
+    float: left;
+
+}
+.box6 .box6-4{
+    width: 219px;
+    height: 338px;
+    background-color: white;
+    border:1px solid grey;
+    margin:102px 148px 115px 0px;
+    float: left;
+
+}
+.box-include{
+    width: 100%;
+   
+    background-color: white;
+    overflow: hidden;
+}
+.box7{
+    width: 850px;
+    height: 567px;
+    float: left;
+    background-color:wheat;
+}
+.box8{
+    width: 573.3px;
+    height: 567px;
+    float: right;
+    background-color:lemonchiffon;
+}
+.box9{
+    width: 100%;
+    height: 426px;
+    background-color:pink;
+    position: relative;
+}
+.box9-1{
+    width: 33.33%;
+    height: 426px;
+    background-color: red;
+}
+.box9-2
+{
+    width: 33.33%;
+    height: 426px;
+    background-color:lightslategray;
+    position: absolute;
+    top: 0;
+    left: 33.33%;
+}
+.box9-3
+{
+    width: 33.33%;
+    height: 426px;
+    background-color:red;
+    position: absolute;
+    top: 0;
+    left: 66.66%;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .black {
+        background: rgba(51, 51, 51);
+        color: white;
+    }
+
+    table {
+        width: 600px;
+        height: 100px;
+    }
+
+    table,
+    td {
+        border: 1px, solid, gray;
+        border-collapse: collapse;
+    }
+
+    table tr:nth-child(even) {
+
+        background: #ccc;
+        color: red;
+
+    }
+
+    table tr:nth-child(3) {
+
+        color: red;
+
+    }
+</style>
+
+<body>
+    <table border="1">
+        <tr class="black">
+            <td> 地点 </td>
+            <td>推荐指数</td>
+            <td>受欢迎程度</td>
+        </tr>
+
+        <tr>
+            <td>李子坝</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>磁器口</td>
+            <td>4</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>解放碑</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>一棵树</td>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>壹华里</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>洪崖洞</td>
+            <td>5</td>
+            <td>5</td>
+        </tr>
+
+
+        <tr class="gray">
+            <td>鹅岭二厂</td>
+            <td>4</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+
+</html>

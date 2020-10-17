@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contanier {
+        display: flex;
+
+        width: 100%;
+
+
+    }
+
+    .box1 {
+        width: 130px;
+        height: 100px;
+        border: 1px solid red;
+        padding: 20px;
+
+    }
+
+    .box2 {
+        width: 130px;
+        height: 80px;
+        border: 1px solid red;
+        padding: 20px;
+    }
+
+    .box3 {
+        width: 130px;
+        height: 20px;
+        border: 1px solid red;
+        padding: 20px;
+    }
+
+    .box4 {
+        width: 130px;
+        height: 180px;
+        border: 1px solid blue;
+        padding: 20px;
+    }
+
+
+    @media screen and (min-width:640px) {
+        .contanier {
+
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:639px) {
+        .contanier {
+            justify-content: space-around;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .box1 {
+            order: 2;
+        }
+
+        .box2 {
+            order: 3;
+        }
+
+        .box3 {
+            order: 4;
+            margin-right: 404px;
+        }
+
+        .box4 {
+            order: 1;
+            margin-bottom: 25px;
+        }
+
+
+    }
+</style>
+
+<body>
+    <div class="contanier">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+
+    </div>
+</body>
+
+</html>
